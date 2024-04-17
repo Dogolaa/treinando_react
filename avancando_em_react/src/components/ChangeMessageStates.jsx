@@ -12,6 +12,9 @@ const ChangeMessageStates = ({handleMessage}) => {
             <button onClick={() => handleMessage(messages[2])}>
                 3
             </button>
+            <button onClick={() => handleMessage(messages[3])}>
+                4
+            </button>
         </div>
     );
 }
