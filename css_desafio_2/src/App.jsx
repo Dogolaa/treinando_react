@@ -20,7 +20,7 @@ function App() {
     <h1> SHOW ROOM 2024</h1>
 
     <div className='car_container'>
-      {myCars.map((car) => (
+      {myCars.map((car)=> (
         <Cars car = {car} />
       ))}
     </div>
